@@ -1,0 +1,392 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 85px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid #dee2e6;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+}
+
+.logo {
+    width: 70px;
+    margin-top: 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 85px;
+    padding: 0 25px;
+    color: rgb(33, 84, 104);
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(44, 196, 196, 0.3);
+}
+
+.container .menu-icon {
+    color: rgb(102, 99, 99);
+    float: right;
+    font-size: 25px;
+    padding: 29px 0;
+    display: none;
+}
+
+.bottom {
+    background-color: #fff;
+    padding-bottom: 100px;
+}
+
+.bottom .container {
+    padding: 85px 20px 20px 20px;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.heading {
+    display: flex
+}
+
+.heading .gb-icon {
+    display: inline
+}
+
+.heading .gb-icon svg {
+    width: 1em;
+    height: 1em
+}
+
+.heading {
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: rgba(91, 150, 244, 1);
+    border-color: #7f5353;
+    flex-direction: column
+}
+
+.gb-headline {
+    text-align: center;
+    color: rgba(91, 150, 244, 1);
+}
+
+
+/* .gb-headline a,
+.gb-headline a:visited {
+    color: #264a61
+} */
+
+
+/* 
+.container .wrapper {
+    margin-top: 100px;
+} */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.column {
+    position: relative;
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.img-flud {
+    /* padding-top: 20px; */
+    padding-left: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+.column p {
+    font-size: 19px;
+    color: #313131;
+}
+
+body {
+    margin: 0;
+    background-color: #71c4f8;
+}
+
+footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: white;
+    font-size: 15px;
+  }
+  
+  footer {
+    background-color: #71c4f8;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+/* ======================================================================= */
+
+.wadah-atas {
+    padding-bottom: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #71c4f8;
+    text-align: center;
+  }
+  .kotak-atas {
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: #71c4f8;
+  }
+  .kotak-atas p{
+    padding-top: 50px;
+    padding-left: 20px;
+    color: white;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    max-width: 50%;
+  }
+  .buat-h1{
+    color: rgb(174, 0, 255);
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .kotak-atas h2{
+    padding-left: 20px;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    max-width: 50%;
+  }
+  .kotak-kanan-atas{
+    margin-top: -450px;
+    float: right;
+  }
+  .tmb {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  .start {
+    padding: 15px 40px;
+    background-color: #f80000;
+    cursor: pointer;
+    box-shadow: 0 7px #f55206;
+  }
+  .start:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+.wadah-kategori {
+    padding-top: 100px;
+    padding-bottom: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.kotak-kategori {
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: #f7f7f0;
+}
+
+.judul {
+    padding-top: 10px;
+}
+
+.judul h2 {
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(91, 150, 244, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.judul h3 {
+    font-weight: normal;
+}
+
+.kotak-kiri {
+    background-color: rgba(151, 117, 249, 1);
+    border-radius: 30px;
+    width: 500px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.kotak-kiri h1 {
+    padding-left: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+.kotak-kanan {
+    background-color: salmon;
+    border-radius: 30px;
+    width: 500px;
+    height: 200px;
+    display: inline-block;
+}
+
+.kotak-kanan h1 {
+    padding-left: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+.kotak-bawah {
+    margin-top: 15px;
+    background-color: coral;
+    border-radius: 30px;
+    width: 1000px;
+    height: 200px;
+    display: inline-block;
+}
+
+.kotak-bawah h1 {
+    padding-left: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+.isi-kategori {
+    float: left;
+    width: 25%;
+    height: 50px;
+    position: relative;
+}
+
+.isi-kategori-ikon {
+    position: relative;
+}
+
+.isi-kategori-ikon p {
+    width: 100%;
+    color: white;
+}
+
+.isi-kategori-kanan {
+    float: left;
+    width: 33%;
+    height: 50px;
+    position: relative;
+}
+
+.isi-kategori-ikon-kanan {
+    position: relative;
+}
+
+.isi-kategori-ikon-kanan p {
+    width: 100%;
+    color: white;
+}
+
+.isi-kategori-bawah {
+    float: left;
+    width: 20%;
+    height: 50px;
+    position: relative;
+}
+
+.isi-kategori-ikon-bawah {
+    position: relative;
+}
+
+.isi-kategori-ikon-bawah p {
+    width: 100%;
+    color: white;
+}
+
+.isi-kategori-ikon a {
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.isi-kategori-ikon a:hover {
+    font-size: 25px;
+    color: black;
+} 
+
+.isi-kategori-ikon-kanan a {
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+
+.isi-kategori-ikon-kanan a:hover {
+    font-size: 25px;
+    color: black;
+}
+
+.isi-kategori-ikon-bawah a {
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+
+.isi-kategori-ikon-bawah a:hover {
+    font-size: 25px;
+    color: black;
+}

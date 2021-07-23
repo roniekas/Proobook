@@ -1,0 +1,115 @@
+@media all and (max-width: 1170px) {
+    .kotak-kiri {
+        width: 75%;
+        margin-bottom: 25px;    
+    }
+    .kotak-kanan {
+        width: 75%;
+        margin-bottom: 25px;
+    }
+    .kotak-bawah {
+        margin-top: 0px;
+        width: 75%;
+        margin-bottom: 25px;
+    }   
+}
+
+/* Untuk Tablet */
+
+@media all and (max-width: 1000px) {
+    .column {
+        width: 100%;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .img-flud {
+        /* padding-top: 20px; */
+        padding-left: 50px;
+        max-width: 75%;
+        height: auto;
+    }
+    .heading h2 {
+        font-size: 36px;
+    }
+    .kotak-kiri {
+        width: 75%;
+        margin-bottom: 25px;
+    }
+    .kotak-kanan {
+        width: 75%             ;
+        margin-bottom: 25px;
+    }
+    .kotak-bawah {
+        margin-top: 0px;
+        width: 75%;
+        margin-bottom: 25px;
+    }
+    .kotak-atas h2{
+        font-size: 35px;
+    }
+    .kotak-atas p{
+        font-size: 35px;
+    }
+    .kotak-kanan-atas{
+        margin-top: -350px;
+    }
+}
+
+
+/* Untuk Smartphone */
+
+@media all and (max-width: 670px) {
+    footer p{
+        font-size: 12px;
+    }
+    .column {
+        width: 100%;
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+    }
+    .header-right {
+        display: none;
+    }
+    .container .menu-icon {
+        display: block;
+    }
+    .kotak-kanan-atas{
+        display:none;
+    }
+    .heading h2 {
+        font-size: 36px;
+    }
+    .judul h2 {
+        font-size: 25px;
+    }
+    .kotak-kiri {
+        width: 75%;
+        margin-bottom: 25px;
+    }
+    .kotak-kanan {
+        width: 75%;
+        margin-bottom: 25px;
+    }
+    .kotak-bawah {
+        width: 75%;
+        margin-bottom: 25px;
+    }
+    .isi-kategori-ikon-bawah p {
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .isi-kategori-ikon-bawah a:hover {
+        font-size: 15px;
+        /* color: black; */
+    }
+    .isi-kategori-ikon-kanan a:hover {
+        font-size: 15px;
+        /* color: black; */
+    }
+    .isi-kategori-ikon a:hover {
+        font-size: 15px;
+        /* color: black; */
+    }
+}
